@@ -1,0 +1,67 @@
+name: focusforge
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.11
+  timezone: ^0.9.4
+  audio_session: ^0.1.21
+  # Backend
+  supabase_flutter: ^2.9.1
+  #App chalane ke liye background mai
+  flutter_foreground_task: ^8.15.2
+#  fl_chart: ^0.68.0
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Charts (stats tab)
+  fl_chart: ^0.68.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+
+  # Music player
+#  just_audio: ^0.9.36
+
+  # Image picking (photo proof)
+  image_picker: ^1.1.2
+
+  # Core UI (DO NOT REMOVE)
+  sizer: ^2.0.15
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  web: ^1.1.1
+
+  # Networking & utilities
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^6.1.4
+  dio: ^5.4.0
+  fluttertoast: ^8.2.4
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/logo.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/audio/

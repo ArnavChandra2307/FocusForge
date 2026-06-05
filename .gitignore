@@ -1,0 +1,51 @@
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# BUILD OUTPUT (VERY IMPORTANT)
+build/
+**/build/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+
+# Web
+web/
+
+# VS / Windows junk
+.vs/
+
+# LARGE ASSETS (THIS FIXES YOUR 181MB ISSUE)
+*.mp3
+*.zip
+*.mov
+*.mp4
+
+# Cache
+.pub-cache/
+.pub/
